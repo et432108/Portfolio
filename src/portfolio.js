@@ -21,7 +21,7 @@ const greeting = {
   ),
   // Option A: external resume link (Google Drive, etc.), OR
   // Option B: leave empty and upload src/containers/greeting/resume/resume.pdf
-  resumeLink: "",
+  resumeLink: "https://drive.google.com/file/d/1wLQgB_IS6lVue1ZtdYconOyuNdsBFQ89/view?usp=sharing",
   displayGreeting: true
 };
 
