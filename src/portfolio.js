@@ -62,7 +62,6 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Central Florida",
-      logo: require("./assets/images/ucf.png"), // (optional) replace with your own logo file; or remove this line
       subHeader: "B.S. in Information Technology",
       duration: "Aug 2021 – Present",
       desc: "Coursework: Mobile Dev (Android), Cyber Defense, Systems Software (PL/0), AWS Academy.",
