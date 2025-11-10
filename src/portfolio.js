@@ -60,7 +60,7 @@ const educationInfo = {
       schoolName: "University of Central Florida",
       subHeader: "B.S. in Information Technology",
       duration: "Aug 2021 – Present",
-      desc: "Coursework: Mobile Dev (Android), Cyber Defense, Systems Software (PL/0), AWS Academy.",
+      desc: "Coursework: Mobile Dev (Android), Cyber Defense, Web Development, AWS Academy.",
       descBullets: ["Figma, project-based coursework, cloud labs"]
     }
   ]
