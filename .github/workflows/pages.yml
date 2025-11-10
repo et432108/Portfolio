@@ -1,4 +1,5 @@
 name: Deploy to GitHub Pages
+
 on:
   push:
     branches: [ master ]
@@ -18,12 +19,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      # ✅ Use Node 16. Do NOT upgrade npm globally.
       - uses: actions/setup-node@v4
         with:
-          node-version: '16'        # old CRA deps build fine on 16
-      # 🚫 REMOVE any "npm install -g npm@latest" step
+          node-version: '16'
+
       - run: npm install
+
+      # Some old CRA stacks choke on warnings in CI; this avoids that.
       - run: npm run build
+        env:
+          CI: false
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./build
