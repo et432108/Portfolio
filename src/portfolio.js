@@ -39,19 +39,15 @@ const skillsSection = {
   title: "What I do",
   subTitle: "Android • Cloud • Systems",
   skills: [
-    emoji("⚡ Build Android apps with Room DB, Retrofit/HTTP, fragments & navigation"),
+    emoji("⚡ Build Android apps with Android Studio"),
     emoji("⚡ Design and deploy AWS labs: EC2, VPC, IAM, SGs, CloudWatch, CloudFormation"),
     emoji("⚡ Systems programming in C/C++ (VMs, parsers, tiny compiler projects)")
   ],
   softwareSkills: [
     { skillName: "java", fontAwesomeClassname: "fab fa-java" },
     { skillName: "android", fontAwesomeClassname: "fab fa-android" },
-    { skillName: "react", fontAwesomeClassname: "fab fa-react" },
-    { skillName: "javascript", fontAwesomeClassname: "fab fa-js" },
     { skillName: "aws", fontAwesomeClassname: "fab fa-aws" },
     { skillName: "python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "git", fontAwesomeClassname: "fab fa-git-alt" },
-    { skillName: "sql", fontAwesomeClassname: "fas fa-database" }
   ],
   display: true
 };
